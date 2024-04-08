@@ -34,6 +34,6 @@ plt.ylabel('Proportion %')
 plt.xlabel('Year')
 plt.xticks(rotation=45)
 plt.legend(fontsize='small')
-plt.savefig('proportion.svg')
+plt.savefig('proportion.svg') #Made this a SVG because it was blurry when I saved it as a PNG, and the SVG was not 
 plt.tight_layout()
 plt.show()
