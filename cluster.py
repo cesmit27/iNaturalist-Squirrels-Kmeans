@@ -3,9 +3,9 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
-Eastern = pd.read_csv(r'D:\Spring 2024\iNat Project\Eastern_Cali.csv')
-Fox = pd.read_csv(r'D:\Spring 2024\iNat Project\Fox_Cali.csv')
-Western = pd.read_csv(r'D:\Spring 2024\iNat Project\Western_Cali.csv')
+Eastern = pd.read_csv('EasternWithDate.csv')
+Fox = pd.read_csv('FoxWithDate.csv')
+Western = pd.read_csv('WesternWithDate.csv')
 
 Eastern['species'] = 'Eastern Gray Squirrel'
 Fox['species'] = 'Fox Squirrel'
